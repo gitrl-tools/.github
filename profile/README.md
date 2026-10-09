@@ -1,6 +1,8 @@
+<!--
 <p align="center">
   <img src="https://raw.githubusercontent.com/gitrl-tools/.github/main/logo/gitrl-tools-256.png" alt="gitrl-tools logo" width="128">
 </p>
+-->
 
 # gitrl-tools
 
