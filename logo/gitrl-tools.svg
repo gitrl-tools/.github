@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  The gitrl-tools logo, and the master the PNGs in this directory are
+  rendered from, at 512, 256 and 128 pixels:
+
+    rsvg-convert -w 512 -h 512 gitrl-tools.svg -o gitrl-tools-512.png
+
+  The Git logo diamond, with a caret drawn as three commits. A terminal
+  writes Ctrl as a caret, as in ^C and ^Z, and git uses it for the parent
+  of a commit, as in HEAD^. The right leg is Olympic Blue, the colour of the
+  side branch in gitrl-f and of the reflog loop in gitrl-z.
+
+  Adapted from the Git logo by Jason Long, CC BY 3.0.
+-->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="13" y="13" width="38" height="38" rx="5" fill="#F05033" transform="rotate(45 32 32)"/>
+  <g stroke-width="3.7" stroke-linecap="round" fill="none">
+    <path d="M32 22.5L45 35.5" stroke="#5A82B3"/>
+    <circle cx="45" cy="35.5" r="4.3" fill="#5A82B3"/>
+    <path d="M32 22.5L19 35.5" stroke="#FFF3EE"/>
+    <circle cx="19" cy="35.5" r="4.3" fill="#FFF3EE"/>
+    <circle cx="32" cy="22.5" r="4.3" fill="#FFF3EE"/>
+  </g>
+</svg>
